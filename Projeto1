@@ -24,7 +24,18 @@ no console:
 
 para cada novo snapshot: git add .
 commit -m "nova observação"
-git status - para ver o novo estado
+git status - para ver o novo estado 
+
+Revisando o histórico de alterações:
+    git log
+    cada commit (id = sequencia de números e letras) é uma versão 
+    git checkout id... -> para mostrar o arquivo naquele momento (snapshot)
+    git checkout master -> para voltar a versão atual (mais rescente)
+
+        Obs: se existirem muitos snapshots será mostrado como texto (ex: vim ou nano)
+        digitar :q para retornar a linha de comando
+
+        
 
 
 
