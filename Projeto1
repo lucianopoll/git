@@ -1,0 +1,30 @@
+Projeto 1 - teste git
+
+criar uma pasta na unidade C: com nome "git"
+abrir o Visual Studio Code
+abrir a pasta criada - "C:\git"
+no terminal do git - <ctrl> + <'> 
+
+    configurações iniciais: (seguir folha de dicas)
+        git config --global user.name "lucianopoll"
+        git config --global user.mail "lucianopollbr@gmail.com"
+        git config --global color.ui auto
+
+Menu File/novo/file -> nomear o arquivo: "Projeto1"
+    no editor (parte superior da tela)
+        digitar o texto adequado - por exemplo um script (este passo a passo de ações)
+        salvar o documento <ctrt> + <s> 
+
+no console: 
+    git init "Projeto1"
+    git status (vai aparecer "untracked = não rastreado")
+    git add "Projeto1" (mostrará: initilized empty Git repository in "local da pasta")
+    git commit -m "texto descritivo da modificação"
+    git status (vão aparecer os dados do repositório)
+
+para cada novo snapshot: git add .
+commit -m "nova observação"
+git status - para ver o novo estado
+
+
+
